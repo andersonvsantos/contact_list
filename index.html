@@ -9,10 +9,10 @@
 <body>
     <div class="container">
         <div class="contend"></div>
-        <form>
+        <form id="contactForm">
             <h1>Agenda de contatos</h1>
-            <input type="text" placeholder="Nome" required/>
-            <input type="number" placeholder="Telefone" required/>
+            <input type="text" id="nameInput" placeholder="Nome" required/>
+            <input type="tel" id="telInput" placeholder="Telefone" required/>
             <button type="submit">Cadastrar</button>
         </form>
         <table cellspacing="0">
@@ -26,17 +26,9 @@
                     </td>
                 </tr>
             </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        Anderson
-                    </td>
-                    <td>
-                        11986346279
-                    </td>
-                </tr>
-            </tbody>
+            <tbody id="tableBody"></tbody>
         </table>
+        <span id="error" class="error"></span>
     </div>
     <script src="main.js"></script>
 </body>

@@ -21,12 +21,13 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(148, 145, 145);
+    background-color: rgb(138, 138, 138);
     border-radius: 5px;
 }
 
 h1 {
     font-weight: bold;
+    color: rgb(255, 255, 255);
 }
 
 form {
@@ -45,13 +46,13 @@ button {
 }
 
 button {
-    background-color: rgb(75, 72, 240);
+    background-color: rgb(54, 51, 236);
     color: white;
     border: none;
 }
 
 button:hover {
-    background-color: rgb(49, 46, 238);
+    background-color: rgb(40, 38, 141);
     cursor: pointer;
 }
 
@@ -69,4 +70,15 @@ thead {
 td {
     padding: .3em 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.199);
+}
+
+.error {
+    text-align: center;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    margin-top: 1.5em;
+    padding: 1em;
+    border-radius: 5px;
+    display: none;
 }
